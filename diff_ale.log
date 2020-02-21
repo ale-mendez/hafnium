@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.20)  21 FEB 2020 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.20)  21 FEB 2020 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,12 +363,12 @@ Class revtex4-1 Info: Line numbering not turned on yet on input line 87.
 \openout3 = `diff_aleNotes.bib'.
 
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 87.
-LaTeX Font Info:    Try loading font information for U+msa on input line 154.
+LaTeX Font Info:    Try loading font information for U+msa on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 154.
+LaTeX Font Info:    Try loading font information for U+msb on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -415,8 +415,8 @@ Package epstopdf Info: Source file: <Hf_bindener_bar.eps>
 (epstopdf)                    date: 2020-02-20 20:24:17
 (epstopdf)                    size: 270679 bytes
 (epstopdf)             Output file: <Hf_bindener_bar-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-02-20 20:24:17
-(epstopdf)                    size: 19550 bytes
+(epstopdf)                    date: 2020-02-21 09:56:08
+(epstopdf)                    size: 20164 bytes
 (epstopdf)             Command: <repstopdf --outfile=Hf_bindener_bar-eps-conver
 ted-to.pdf Hf_bindener_bar.eps>
 (epstopdf)             \includegraphics on input line 256.
@@ -432,7 +432,7 @@ Package pdftex.def Info: Hf_bindener_bar-eps-converted-to.pdf  used on input li
 ne 256.
 (pdftex.def)             Requested size: 312.9803pt x 250.38599pt.
 
-Underfull \hbox (badness 1360) in paragraph at lines 263--264
+Underfull \hbox (badness 1360) in paragraph at lines 263--266
 []\OT1/cmr/m/n/10 For the stop-ping power due to bound elec-trons,
  []
 
@@ -445,7 +445,7 @@ Package epstopdf Info: Source file: <Fig02.eps>
 (epstopdf)                    size: 38665 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig02-eps-converted-to.pdf
  Fig02.eps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             \includegraphics on input line 290.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -454,7 +454,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <Fig02-eps-converted-to.pdf, id=39, 821.0675pt x 574.145pt>
 File: Fig02-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig02-eps-converted-to.pdf>
-Package pdftex.def Info: Fig02-eps-converted-to.pdf  used on input line 280.
+Package pdftex.def Info: Fig02-eps-converted-to.pdf  used on input line 290.
 (pdftex.def)             Requested size: 369.88582pt x 258.6432pt.
 Package epstopdf Info: Source file: <Fig03.eps>
 (epstopdf)                    date: 2020-02-20 20:24:17
@@ -464,7 +464,7 @@ Package epstopdf Info: Source file: <Fig03.eps>
 (epstopdf)                    size: 42357 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig03-eps-converted-to.pdf
  Fig03.eps>
-(epstopdf)             \includegraphics on input line 293.
+(epstopdf)             \includegraphics on input line 311.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -473,7 +473,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <Fig03-eps-converted-to.pdf, id=40, 821.0675pt x 574.145pt>
 File: Fig03-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig03-eps-converted-to.pdf>
-Package pdftex.def Info: Fig03-eps-converted-to.pdf  used on input line 293.
+Package pdftex.def Info: Fig03-eps-converted-to.pdf  used on input line 311.
 (pdftex.def)             Requested size: 369.88582pt x 258.6432pt.
 [4 <./Hf_bindener_bar-eps-converted-to.pdf>] [5 <./Fig02-eps-converted-to.pdf> 
 <./Fig03-eps-converted-to.pdf>]
@@ -487,51 +487,45 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ³ in font cmr10!
-
-Underfull \hbox (badness 2809) in paragraph at lines 377--378
+ [6]
+Underfull \hbox (badness 2809) in paragraph at lines 394--395
  []\OT1/cmr/m/n/9 E.I. Siro-tinin, A.F. Tuli-nov, V.A. Khodyrev, V.N.
  []
 
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ­ in font cmr9!
-[6]
 No file diff_ale.bbl.
-[7] (./diff_ale.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[7] (./diff_ale.aux) ) 
 Here is how much of TeX's memory you used:
- 4978 strings out of 494923
- 66051 string characters out of 6180742
- 172230 words of memory out of 5000000
- 8210 multiletter control sequences out of 15000+600000
+ 4977 strings out of 494923
+ 66041 string characters out of 6180742
+ 174230 words of memory out of 5000000
+ 8209 multiletter control sequences out of 15000+600000
  12941 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,9n,32p,1571b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on diff_ale.pdf (7 pages, 361491 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on diff_ale.pdf (7 pages, 368127 bytes).
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams
