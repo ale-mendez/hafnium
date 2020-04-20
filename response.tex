@@ -3,15 +3,15 @@
 \setlength{\parindent}{0pt}
 \usepackage{soul}
 \usepackage{xcolor}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{graphicx}
 
 \setstcolor{red}
 
 % Title Page
 \title{Response to referee reports \\ AP11756/Montanari }
-\author{C.C. Montanari, A. M. P. Mendez, D. M. Mitnik, J. E. Miraglia, \\
-P.A. Miranda, R. Correa, J. Wachter, M. Aguilera, \\
-E. Alves, N. Catarino and R.C. da Silva}
-\date{\today}
+%\author{C. C. Montanari, A. M. P. Mendez, D. M. Mitnik, J. E. Miraglia, \\ P.A. Miranda, R. Correa, J. Wachter, M. Aguilera, \\ E. Alves, N. Catarino and R.C. da Silva}
+%\date{\today}
 
 \begin{document}
 \maketitle
@@ -24,27 +24,30 @@ E. Alves, N. Catarino and R.C. da Silva}
 needs to be modified accordingly.}
 
 \vspace{0.1cm}
-The title has been modified following the referee's recommendation to
-``Stopping power of hafnium by proton impact and the importance of 
-relativistic $4f$ electrons''.
+{\color{red} The title has been modified following the referee's recommendation:}
+{\small ''The stopping power of hydrgen in hafnium and the importance of relativistic $4f$ electrons''}.
 
 % ----------------------------------------------------------------------
-\vspace{0.25cm}
+\vspace{0.35cm}
 \textsl{2. It appears that calculations assume bare protons. According 
 to CasP, neutrals play a considerable role in charge equilibrium around 
 and below the Bragg peak. Some explanation is needed here.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} It is correct, our calculations assume bare protons. We consider that there is no bound electron or very small probability because free electrons of metals screens the hydrogen and this screening is enough at low energies as to have no bound electron. CasP includes a very good fitting of experimental charge states and a powerful scaling rule about them. However, it is based on measurements of charge states outside the metal. For multi-charged ions almost no differences are expected and CasP charge state works very well. For H and He ions, differences are important.  We add the following explanation about why considering just proton impact, and the reference to CasP and the paper of charge states by Schwietz and Grande.}
 
+\vspace{0.1cm}
+{\small ''Finally, in all our calculations we assumed the projectile to be proton and not neutral hydrogen. When an ion moves inside a metal, the FEG screens the nucleus, so the binding energies will be smaller than outside the metal, and this effect is more important a low impact velocities $v$. In the case of hydrogen the difference is drastic, i.e. for H inside Hf ($rs=2.07$), the $1s$-bound state is almost null at $v<2$. It is worth to mention that this assumption agrees with Ziegler SRIM code, but differs from CasP code that predicts neutral hydrogen at very low velocities.''}
 % ----------------------------------------------------------------------
-\vspace{0.25cm}
+
+\vspace{0.35cm}
 \textsl{3. Thickness measurements by Rutherford backscattering rely 
 ‘heavily’ on the scattering cross section, while energy loss is a minor 
 correction depending on foil thickness (p.1, 2nd paragraph).}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Pedro Miranda ..........................................................}
+\vspace{0.2cm}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -58,67 +61,68 @@ to justify an error estimate of only 5\% (1st paragraph in section
 IIB).}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} The referee is correct, we have used the stopping of 5.486 MeV alphas and SRIM as reference to get the thickness. Although SRIM fits the experimental data available, it is not just a fitting, it is a mix of model and fitting (semiempirical). At high impact energies where the stopping is well known srim is quite reliable. Figure \ref{HeHf} here can clarify these assertions. 
+a) In this figure we plotted together H and He in Hf, dividing by $Z^2$. Above 1 MeV/amu both srim curves and our theoretical results agree within $2\%$. The vertical pink line indicates the impact energy we use as reference. It is in the region where the srim predictions are reliable. b) srim is semiempirical, the comparison of H and He in the same target shows clearly how srim for H ions curves down and up to fit Sirotonin data. It is also clear how srim for He ion overvalue in order to fit the single measurement by Chu, Ziegler and others. Why do we say "overvalue"? Because the stopping of He ions divided by 4 can be equal or below the stopping of H ions. }
+
+%-----------------------------------------------------------------------
+\begin{figure}[!t]
+\centering
+\includegraphics[width=12.cm]{Fig_HeHf.eps}
+\caption{Comparison of stopping of Hf for H and He at high impact energies}
+\label{HeHf}
+\end{figure}
+%-----------------------------------------------------------------------
 
 % ----------------------------------------------------------------------
-\vspace{0.25cm}
-\textsl{5. In connection with the discussion of relativity and 
-outer-shell electrons (p.3) it might be instructive to mention that 
-this is the reason for the existence of relativistic quantum chemistry 
-programs. Since the authors find it surprising that the effect increases 
-in magnitude from inner to outer shells, the reader needs an 
-explanation. I should think the effect of deviations in the screening 
-add up shell by shell, but I may be wrong. Moreover, the sign of the 
-discrepancy in figure 2a deserves attention, which seems to change from 
-positive up to 4p- to negative from 5p+.}
+\vspace{0.35cm}
+\textsl{5. In connection with the discussion of relativity and outer-shell electrons (p.3) it might be instructive to mention that 
+this is the reason for the existence of relativistic quantum chemistry programs. Since the authors find it surprising that the effect increases in magnitude from inner to outer shells, the reader needs an explanation. I should think the effect of deviations in the screening add up shell by shell, but I may be wrong. Moreover, the sign of the discrepancy in figure 2a deserves attention, which seems to change from positive up to 4p- to negative from 5p+.}
 
 \vspace{0.1cm}
-The referee is correct. We included the following modifications in the text
-(lines 200-214):
+{\color{red} The referee is correct. We included the following modifications in the text
+(page 3, lines 210-228):}
 
 \vspace{0.1cm}
-{\small ``One would expect the relativistic contributions to only affect 
-significantly the inner shells. The relativistic binding energies of the 
-electrons belonging to these shells are 2.5\% from the experimental values,
-while the non-relativistic ones are within $\sim$10\%. Moreover, we notice 
-the relativistic corrections greatly influences the outer $5p$ and $4f$ 
-shells. This effect may be a consequence of the orthogonality with the 
-relativistic inner shells. Also, the sign of the binding energy deviations 
-is inverted near the FEG limit, i.e. the electrons go from being more 
-bounded --than the experimental values-- to being less bounded. 
-This change of sign can be attributed to the fact that the experimental 
-values correspond to hafnium in solid-state, while our theoretical 
-calculations correspond to the element in the gas phase.''}
+{\small ``In the comparison with the experimental values in Fig. 2 (a) it can be noted that the sign of the binding energy deviations is inverted for the outer $5s$-$4f\pm$ electrons, with the experimental binding energies being less bounded than our theoretical ones. Small differences for the outer shells are expected since  the experimental
+values correspond to hafnium in solid-state, while our theoretical  calculations correspond to the element in the gas phase.
+For more detail, Fig. 2 (b) shows  the relative errors
+with respect to the experimental  values.
+This figure shows clearly that the relativistic corrections are very important to describe
+the atomic structure of hafnium, even for the outer shells.
+It turns out that the errors committed in the non-relativistic calculations of the inner shell orbitals 
+propagate, through the Hartree-Fock approximation, to the outer shells.The importance of full-relativistic calculations for the outer shells has already been noted before for Au, Pb and Bi and W.''}
+
+%{\small ``One would expect the relativistic contributions to only affect  significantly the inner shells. The relativistic binding energies of the  electrons belonging to these shells are 2.5\% from the experimental values, while the non-relativistic ones are within $\sim$10\%. Moreover, we notice the relativistic corrections greatly influences the outer $4f$ shell. This effect may be a consequence of the orthogonality with the  relativistic inner shells. The relativistic $1s$-$4d$ electrons are little but more bounded than the experimental values. This sign is inverted for the outer electrons, being less bounded experimentally than the relativistic calculations.  This change of sign can be attributed to the fact that the experimental values correspond to hafnium in solid-state, while our theoretical calculations correspond to the element in the gas phase.''}
+
+
 
 % ----------------------------------------------------------------------
-\vspace{0.25cm}
-\textsl{6. The importance of 4f-5p screening is documented clearly 
-(p.3), but the reader will ask why this does not affect other shells. 
-I assume that the effect is important when two or more subshells have 
-similar energies and, hence, overlap in real and velocity space. If so, 
-I suggest to mention this. If not, another explanation is needed.}
+\vspace{0.35cm}
+\textsl{6. The importance of 4f-5p screening is documented clearly (p.3), but the reader will ask why this does not affect other shells. I assume that the effect is important when two or more subshells have similar energies and, hence, overlap in real and velocity space. If so, I suggest to mention this. If not, another explanation is needed.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} The mixing criteria is explained on page 3: we consider the quantum uncertainty in energy so bound electrons with similar energies and mean radio $<r>$ response as a single density of electrons including screening among them. We recognize that a more detailed study is needed, we are developing such work as a systematic for different targets involving 4f electrons. What we have done here for Hf is to check the importance of the contribution to the total stopping. Only the 5p-4f mixing have influence in the total stopping because they are the second most important contribution after the FEG. Some other shells may be mixed, and we calculate them, but the total stopping changes in very small $\%$.  We added lines 262-264 to page 4.}
+
+{\small '' As already mentioned, at higher energies inter-shell screening is possible for other subshells (i.e. 4p-4d for impact energies above 0.9 MeV), but its weight in the total stopping is minor for deeper shells.'' }
 
 % ----------------------------------------------------------------------
-\vspace{0.25cm}
+\vspace{0.35cm}
 \textsl{7. In view of the large contribution of the outermost shell, I 
 suggest to include the core contribution in figure 3.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} We thank the referee for this suggestion, actually we had this figure, but we doubted on including all the curves. Now Fig. 3 includes separate FEG and bound electron contribution, and the total curves too.}
 
 % ----------------------------------------------------------------------
-\vspace{0.25cm}
+\vspace{0.35cm}
 \textsl{8. In addition to comparisons with experiments and empirical 
 models, it would be instructive to see comparisons with theoretical 
 models like CasP and DPASS in figure 4.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} We thank this suggestion. We had already compared with Casp5.2 and DPASS for ourselves before submitting. In this version we added CasP5.2 and DPASS to figure 4, we added a mention in the introduction(last paragraph, lines 68-73), and the following comment in page 6, lines 315-322:}
 
-
+{\small ''The stopping maximum is a very sensitive region for any full theoretical description, with no parameters at all, and this is quite visible in a linear-scale plot like Fig. [4]. However, the impact energy for the maximum seem to agree between our curve and DPASS, though $10 \%$ below. Instead, CasP predicts a stopping maximum $10 \%$ above and a completely different shape at lower energies.''}
 
 
 \newpage
@@ -130,7 +134,9 @@ models like CasP and DPASS in figure 4.}
 stopping data? The authors must discuss it in the manuscript.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Pedro Miranda, ..........................................................}
+\vspace{0.2cm}
+
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -139,7 +145,8 @@ surface roughness and/or target non-uniformity might affect the final
 results obtained in transmission method.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Pedro Miranda, ..........................................................}
+\vspace{0.2cm}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -151,7 +158,8 @@ system that would affect the energy distribution peaks, hence the
 Gaussian position from the fits (Fig. 1)?}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Pedro Miranda, ..........................................................}
+\vspace{0.2cm}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -164,8 +172,17 @@ on Hf to obtain the target thickness). Can the authors explain why
 there is such systematic difference for the present measurements using
 protons?}
 
-\vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} There is a small systematic difference between our experiments and theory for impact energies above 1.5 MeV, but it is within the experimental error. Figure~\ref{highE} here, amplifies the results shown in the manuscript by focusing  on the high energy region. Note that we included our theoretical results, Srim, Casp5.2 and DPASS to this figure. The difference is actually small, being less than $3\%$ for the two values above 2 MeV. We included the following sentence in the text........................Pedro, PLEASE CHECK THIS}
+
+
+%-----------------------------------------------------------------------
+\begin{figure}[!t]
+\centering
+\includegraphics[width=12.cm]{Fig04.eps}
+\caption{stopping at high impact energies, theoretical curves and symbols for data explained inside the figure}
+\label{highE}
+\end{figure}
+%-----------------------------------------------------------------------
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -181,7 +198,8 @@ systematically (see comments 1, 2 and 3), and they must be discussed
 in more details.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Pedro Miranda, ..........................................................}
+\vspace{0.2cm}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -192,7 +210,11 @@ different models to predict SCS of “challenge” materials, as
 transition metals (f-subshell)?}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} We thank the referee for this suggestion that improves this new version.  We have added CasP5.2 and DPASS curves in Figure 4, we have also added a mention in the introduction (last paragraph, lines 68-73), and the following comment in page 6, lines 315-322:}
+
+{\small ''The stopping maximum is a very sensitive region for any full theoretical description, with no parameters at all, and this is quite visible in a linear-scale plot like Fig. [4]. However, the impact energy for the maximum seem to agree between our curve and DPASS, though $10 \%$ below. Instead, CasP predicts a stopping maximum $10 \%$ above and a completely different shape at lower energies.''}
+
+
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -202,9 +224,13 @@ data are needed even at higher energies, e.g., nearby (and slightly
 above) the Bragg peak... Please enhance discussions about it.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} We agree with this comment by the referee. In a ion-target system with only two set of measurements more data is needed. In the energy region 80-500 keV only the data by Sirotinin group is available and cannot be compared with others. SRIM is not a test for this data, SRIM includes this data in the adjust (more detail about this can be found in the answer 4 to the first referee report). We change the comments in page 6 lines 328-336 and lines 364-366 as follows:}
 
+{\small ''Future experiments  would be important to
+complete this study on the stopping of Hf for protons. In the energy region $80-500$ keV only the measurements by Sirotinin group in 1984 are available. SRIM clearly includes these values in the adjust of the code, so it does not represent a test for this data. Undoubtedly, new measurements are needed in three specific energy regions: below 500 keV, around the stopping maximum (i.e. $50-200$ keV) and at low impact energies''} 
 
+{\small ''Future experiments for impact energies 
+below 500 keV, around the stopping maximum and in the low energy region would be important to complete this study.''}
 
 
 \newpage
@@ -224,8 +250,10 @@ found for the 4f states as compared to the experimental values could
 be related to this point.}
 
 \vspace{0.1cm}
-Our calculations are performed for gas phase Hf atoms. We have clarify
-this in the manuscript (lines 211-214).
+{\color{red} The referee is correct, our calculations are performed for gas phase Hf atoms. We have added the following paragraph in this version of the manuscript (page 3, lines 207-215) to express this clearly.}
+
+{\small ''In the comparison with the experimental values in Fig.2 (a) it can be noted that the sign of the binding energy deviations is inverted for the outer $5s$-$4f\pm$ electrons, with the experimental binding energies being less bounded than our theoretical ones. Small differences for the outer shells are expected since  
+the experimental values correspond to hafnium in solid-state, while our theoretical  calculations correspond to the element in the gas phase.''}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -244,7 +272,9 @@ description of the bound electrons is used in the curve labeled as
 ``SPCC(FEG)+SLPA(bound)''.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Thank you for the comment that helps us to clarify this point. Our SLPA calculations use the relativistic wave functions and binding energies for the bound electron contribution to the stopping power.The three curves in Fig. 3 and the curve in Fig. 4 are relativistic in this sense. We have added an explicit mention about the use of relativistic wave functions and binding energies in page 4 lines 200-201, and also this comment in page 4, lines 287-289:}
+
+{\small ''Bound $1s$-$4f$ electrons (relativistic wave functions and binding energies) are calculated with the SLPA and shown separately in Fig. 3''}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -255,8 +285,27 @@ with the non-relativistic description in order to demonstrate the
 importance of this correction.}
 
 \vspace{0.1cm}
-{\color{red}Te mando adjunto las funciones de onda y energías de ligaduras
-del caso no relativista (NR). Habría que ver como queda.}
+{\color{red}  The SLPA calculations for the bound electrons uses the Hartree-Fock wave funtions and binding energies, which are available in the tables by Clementi-Roetti or by Bunge for elements up to Xe (Z=54). The errors in the non-relativistic calculations worsen for higher Z atoms, and this is the reason why these tables do not extend any further than Z=54.  The fail of non-relativistic values of binding energies is shown in Fig. 2. We have added a comment on this in page 3, lines 214-228. }
+
+\vspace{0.1cm}
+{\small ``For more detail, Fig. 2 (b) shows  the relative errors
+with respect to the experimental  values.
+This figure shows clearly that the relativistic corrections are very important to describe
+the atomic structure of hafnium, even for the outer shells.
+It turns out that the errors committed in the non-relativistic calculations of the inner shell orbitals 
+propagate, through the Hartree-Fock approximation, to the outer shells.The importance of full-relativistic calculations for the outer shells has already been noted before for Au, Pb and Bi and W.''}
+
+{\color{red} When dealing with stopping in targets with Z>54 we need to face our own calculation of the wave functions and binding energies. And we do it within the relativistic approximation to the best of our possibilities. However, one can wonder if such discrepancy in the non-relativistic results affects the stopping power. First, it will only affect the bound electron contribution to the total stopping. Second, at high energies (i.e. 1 MeV) the results converge to Bethe limit for any density of electrons as far as the correct number of target electrons is included. Having clarified this, we include in the figure \ref{NR} here, the total stopping using the non-relativistic values we calculate using the autostructure code. As can be noted, at sufficiently high energies it is the same, but differs around the stopping and at lower impact energies. We have included in this figure and in Fig. 4 of the manuscript the DPASS results by Sigmund.}
+
+
+%-----------------------------------------------------------------------
+\begin{figure}[!t]
+\centering
+\includegraphics[width=12.cm]{Fig05.eps}
+\caption{Total stopping, present results using relativistic and non-relativistic solutions for hafnium atom. Curves and symbols explained inside the figure}
+\label{NR}
+\end{figure}
+%-----------------------------------------------------------------------
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -266,7 +315,7 @@ the ML(FEG) calculation alone in order to identify better the
 contribution of the bound electrons to the SP.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Thank you for this suggestion. We have added the curves for FEG and bound electrons to Fig. 3, and the corresponding comments in the text and in the figure caption.}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -276,7 +325,10 @@ experimental technique was used in Ref. 7 to measure the stopping
 power.}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} Good suggestion, thank you. Sirotinin group used the backscattering method for these measurements. We have added a sentence in the introduction, last paragraph, and in the second paragraph of section IV related to Fig. 4.}
+
+{\small ''Present measurements using transmission method are in good agreement with the previous data by 
+Sirotinin, measured in backscattering geometry''}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -290,7 +342,20 @@ limitations in the theoretical model that can be causing this energy
 shift?}
 
 \vspace{0.1cm}
-{\color{red}Reply here.}
+{\color{red} The stopping maximum is very sensitive to the theoretical model and to the experimental method. Sirotinin paper mention "possible reasons for the disagreement of the measurement results near the E(E) curve maximum". 
+%The original paper by Sirotinin says: "The possible reasons for the disagreement of the measurement results near the E(E) curve maximum are mainly related to the inaccuracy in determining thickness, to nonuniformity of the thickness, and the neglect of the effect of the chemical composition and structure of the thin films used in the measurements"
+For targets with many different sets of data (i.e. H in Ag, Al, Au, Fe, Cu, Si, and others) it is usual to note great dispersion of values around the maximum. In the case of Hf, only one set of data is available and it is perfectly matched by SRIM semi-empirical curve. SRIM clearly includes these values in the adjust of the code, so it does not represent a test for this data. One of the goals of this work is to call the attention on possible differences between theory and the existing values, and to remark the necessity of more experimental data in certain energy regions, mainly, the stopping maximum and below. We have changed the comments in page 6 lines 328-336 and lines 364-366 as follows:}
+
+{\small ''Future experiments  would be important to
+complete this study on the stopping of Hf for protons. In the energy region $80-500$ keV only the measurements by Sirotinin group in 1984 are available. SRIM clearly includes these values in the adjust of the code, so it does not represent a test for this data. Undoubtedly, new measurements are needed in three specific energy regions: below 500 keV, around the stopping maximum (i.e. $50-200$ keV) and at low impact energies''} 
+
+{\small ''Future experiments for impact energies around the stopping maximum and in the low energy region would be important to complete this study.''}
+
+
+{\color{red} In relation with the referee comment about the maximum of the stopping, in Fig. 4 we have added the comparison with other two theoretical results: CASP and PASS. The following comment has been included in page 6, lines 315-322:}
+
+{\small ''The stopping maximum is a very sensitive region for any full theoretical description, with no parameters at all, and this is quite visible in a linear-scale plot like Fig. [4]. However, the impact energy for the maximum seem to agree between our curve and DPASS, although DPASS is $10 \%$ below ours. Instead, CasP predicts a stopping maximum $10 \%$ above our value and a completely different shape at lower energies.''}
+
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
@@ -301,21 +366,23 @@ co-workers published in Phys. Rev. Lett. 119, 163401 (2017), in which
 the SP of protons is precisely measured in this target.}
 
 \vspace{0.1cm}
-We thank the referee for suggesting the missing reference. We have now
-include it in the revised manuscript.
+{\color{red} We thank the referee for suggesting this missing reference. We have
+included it in the revised manuscript.}
 
 % ----------------------------------------------------------------------
 \vspace{0.25cm}
 \textsl{Finally, there are few misprints in the generated pdf file:}
 
 \textsl{- Y-axis labels in Figs. 3 an 4 are unreadable }
-{\color{red} ¿Cómo quedó el preprint? El pdf que genera mi latex tiene 
-bien los labels, así que debe un problema del generador de latex del PRA...}
 
-\st{\textsl{- Page 3,2nd column, 2nd full paragraph: "Too assess"}}
+{\color{red} We have changed to larger prints  and have written explicitly "stopping cross section" -Y- and "Impact energy" -X- instead of S(E) and E. }
 
-\st{\textsl{- Caption of Fig.2: "hollow circles" -$>$ "open circles" or
-"unfilled circles"}}
+\textsl{- Page 3,2nd column, 2nd full paragraph: "Too assess"}
+{\color{red} corrected}
+
+\textsl{- Caption of Fig.2: "hollow circles" -$>$ "open circles" or
+"unfilled circles"}
+{\color{red} corrected}
 
 
 \end{document}          

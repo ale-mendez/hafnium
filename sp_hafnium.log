@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  3 APR 2020 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  20 APR 2020 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,27 +255,27 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box43
 LaTeX Info: Redefining \\ on input line 3056.
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 16.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 16.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 18.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 18.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 16.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 16.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 16.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 18.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 18.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 18.
  (./sp_hafnium.aux)
 \openout1 = `sp_hafnium.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -347,35 +347,50 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
-line 16.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 16.
+line 18.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 18.
 \openout3 = `sp_hafniumNotes.bib'.
 
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 16.
-LaTeX Font Info:    Try loading font information for U+msa on input line 96.
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 18.
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 7981) in paragraph at lines 170--184
+)
+
+Class revtex4-1 Warning: If you want your PACS to appear in your output, use do
+cument class option showpacs.
+
+
+Class revtex4-1 Warning: If you want your keywords to appear in your output, us
+e document class option showkeys.
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 176--191
 []\OT1/cmr/m/n/10 The the-o-ret-i-cal ap-proach im-ple-mented in this
  []
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <Fig01.eps>
-(epstopdf)                    date: 2020-02-20 20:24:17
+(epstopdf)                    date: 2020-04-17 23:36:00
 (epstopdf)                    size: 35256 bytes
 (epstopdf)             Output file: <Fig01-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-03-11 10:18:05
 (epstopdf)                    size: 13184 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig01-eps-converted-to.pdf
  Fig01.eps>
-(epstopdf)             \includegraphics on input line 196.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 206.
+runsystem(repstopdf --outfile=Fig01-eps-converted-to.pdf Fig01.eps)...executed 
+safely (allowed).
+
+Package epstopdf Info: Result file: <Fig01-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-03-11 10:18:05
+(epstopdf)                    size: 13184 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Fig01-eps-converted-to.pdf): PDF inclusion: fo
@@ -383,79 +398,103 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <Fig01-eps-converted-to.pdf, id=20, 780.9175pt x 606.265pt>
 File: Fig01-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig01-eps-converted-to.pdf>
-Package pdftex.def Info: Fig01-eps-converted-to.pdf  used on input line 196.
+Package pdftex.def Info: Fig01-eps-converted-to.pdf  used on input line 206.
 (pdftex.def)             Requested size: 256.0748pt x 198.8007pt.
 
-Overfull \hbox (10.0748pt too wide) in paragraph at lines 196--197
+Overfull \hbox (10.0748pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
 [2 <./Fig01-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <bindener.eps>
-(epstopdf)                    date: 2020-03-11 10:18:05
+(epstopdf)                    date: 2020-04-17 23:36:00
 (epstopdf)                    size: 270548 bytes
 (epstopdf)             Output file: <bindener-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-03-11 10:18:05
 (epstopdf)                    size: 20155 bytes
 (epstopdf)             Command: <repstopdf --outfile=bindener-eps-converted-to.
 pdf bindener.eps>
-(epstopdf)             \includegraphics on input line 325.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 335.
+runsystem(repstopdf --outfile=bindener-eps-converted-to.pdf bindener.eps)...exe
+cuted safely (allowed).
+
+Package epstopdf Info: Result file: <bindener-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-03-11 10:18:05
+(epstopdf)                    size: 20155 bytes.
 
 
 pdfTeX warning: pdflatex (file ./bindener-eps-converted-to.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<bindener-eps-converted-to.pdf, id=33, 722.7pt x 578.16pt>
+<bindener-eps-converted-to.pdf, id=32, 722.7pt x 578.16pt>
 File: bindener-eps-converted-to.pdf Graphic file (type pdf)
 <use bindener-eps-converted-to.pdf>
-Package pdftex.def Info: bindener-eps-converted-to.pdf  used on input line 325.
+Package pdftex.def Info: bindener-eps-converted-to.pdf  used on input line 335.
 
 (pdftex.def)             Requested size: 312.9803pt x 250.38599pt.
-Package epstopdf Info: Source file: <Fig02.eps>
-(epstopdf)                    date: 2020-02-20 20:24:17
-(epstopdf)                    size: 94856 bytes
-(epstopdf)             Output file: <Fig02-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-11 10:18:05
-(epstopdf)                    size: 38665 bytes
-(epstopdf)             Command: <repstopdf --outfile=Fig02-eps-converted-to.pdf
- Fig02.eps>
-(epstopdf)             \includegraphics on input line 377.
-Package epstopdf Info: Output file is already uptodate.
+[3]
+Package epstopdf Info: Source file: <Fig02_new3.eps>
+(epstopdf)                    date: 2020-04-17 23:36:02
+(epstopdf)                    size: 76574 bytes
+(epstopdf)             Output file: <Fig02_new3-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-04-17 20:49:46
+(epstopdf)                    size: 31645 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig02_new3-eps-converted-t
+o.pdf Fig02_new3.eps>
+(epstopdf)             \includegraphics on input line 415.
+runsystem(repstopdf --outfile=Fig02_new3-eps-converted-to.pdf Fig02_new3.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <Fig02_new3-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-04-17 20:49:46
+(epstopdf)                    size: 31645 bytes.
 
 
-pdfTeX warning: pdflatex (file ./Fig02-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<Fig02-eps-converted-to.pdf, id=34, 821.0675pt x 574.145pt>
-File: Fig02-eps-converted-to.pdf Graphic file (type pdf)
-<use Fig02-eps-converted-to.pdf>
-Package pdftex.def Info: Fig02-eps-converted-to.pdf  used on input line 377.
+pdfTeX warning: pdflatex (file ./Fig02_new3-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Fig02_new3-eps-converted-to.pdf, id=39, 821.0675pt x 574.145pt>
+File: Fig02_new3-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig02_new3-eps-converted-to.pdf>
+Package pdftex.def Info: Fig02_new3-eps-converted-to.pdf  used on input line 41
+5.
 (pdftex.def)             Requested size: 369.88582pt x 258.6432pt.
-[3] [4 <./bindener-eps-converted-to.pdf> <./Fig02-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Fig03.eps>
-(epstopdf)                    date: 2020-03-11 10:18:05
-(epstopdf)                    size: 95260 bytes
-(epstopdf)             Output file: <Fig03-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-11 10:18:05
-(epstopdf)                    size: 41868 bytes
-(epstopdf)             Command: <repstopdf --outfile=Fig03-eps-converted-to.pdf
- Fig03.eps>
-(epstopdf)             \includegraphics on input line 406.
-Package epstopdf Info: Output file is already uptodate.
+Package epstopdf Info: Source file: <Fig03_new2.eps>
+(epstopdf)                    date: 2020-04-17 23:36:00
+(epstopdf)                    size: 94229 bytes
+(epstopdf)             Output file: <Fig03_new2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-04-17 20:53:11
+(epstopdf)                    size: 42049 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig03_new2-eps-converted-t
+o.pdf Fig03_new2.eps>
+(epstopdf)             \includegraphics on input line 446.
+runsystem(repstopdf --outfile=Fig03_new2-eps-converted-to.pdf Fig03_new2.eps)..
+.executed safely (allowed).
+
+Package epstopdf Info: Result file: <Fig03_new2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-04-17 20:53:11
+(epstopdf)                    size: 42049 bytes.
 
 
-pdfTeX warning: pdflatex (file ./Fig03-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<Fig03-eps-converted-to.pdf, id=128, 821.0675pt x 574.145pt>
-File: Fig03-eps-converted-to.pdf Graphic file (type pdf)
-<use Fig03-eps-converted-to.pdf>
-Package pdftex.def Info: Fig03-eps-converted-to.pdf  used on input line 406.
+pdfTeX warning: pdflatex (file ./Fig03_new2-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Fig03_new2-eps-converted-to.pdf, id=40, 821.0675pt x 574.145pt>
+File: Fig03_new2-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig03_new2-eps-converted-to.pdf>
+Package pdftex.def Info: Fig03_new2-eps-converted-to.pdf  used on input line 44
+6.
 (pdftex.def)             Requested size: 369.88582pt x 258.6432pt.
+[4 <./bindener-eps-converted-to.pdf>]
+Overfull \vbox (20.2864pt too high) has occurred while \output is active []
 
-Underfull \hbox (badness 1400) in paragraph at lines 559--561
+
+Overfull \vbox (20.2864pt too high) has occurred while \output is active []
+
+
+[5 <./Fig02_new3-eps-converted-to.pdf> <./Fig03_new2-eps-converted-to.pdf>]
+[6]
+Underfull \hbox (badness 1400) in paragraph at lines 637--639
  []\OT1/cmr/m/n/9 E.I. Siro-tinin, A.F. Tuli-nov, V.A. Khodyrev, V.N.
  []
 
-[5]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ‰ in font cmr9!
@@ -471,17 +510,28 @@ Missing character: There is no ‰ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ‰ in font cmr9!
- [6 <./Fig03-eps-converted-to.pdf>]
+
+Underfull \hbox (badness 1248) in paragraph at lines 725--730
+ []\OT1/cmr/m/n/9 A. Schin-ner, P. Sig-mund, Nucl. In-strum. Meth. B
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 725--730
+ \OT1/cmr/m/n/9 J. D \OT1/cmr/bx/n/9 12\OT1/cmr/m/n/9 , 425 (2000). DPASS code,
+ avail-able from
+ []
+
+[7]
 No file sp_hafnium.bbl.
-[7] (./sp_hafnium.aux) ) 
+[8] (./sp_hafnium.aux) ) 
 Here is how much of TeX's memory you used:
- 5420 strings out of 494847
- 70685 string characters out of 6179080
- 195854 words of memory out of 5000000
- 8665 multiletter control sequences out of 15000+600000
- 13448 words of font info for 52 fonts, out of 8000000 for 9000
+ 5433 strings out of 494847
+ 70900 string characters out of 6179080
+ 157118 words of memory out of 5000000
+ 8679 multiletter control sequences out of 15000+600000
+ 13148 words of font info for 51 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,10n,35p,503b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,35p,790b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
@@ -494,19 +544,18 @@ t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on sp_hafnium.pdf (7 pages, 365687 bytes).
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on sp_hafnium.pdf (8 pages, 348074 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 256 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
