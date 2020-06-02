@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  20 APR 2020 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  2 JUN 2020 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,7 +414,7 @@ Package epstopdf Info: Source file: <bindener.eps>
 (epstopdf)                    size: 20155 bytes
 (epstopdf)             Command: <repstopdf --outfile=bindener-eps-converted-to.
 pdf bindener.eps>
-(epstopdf)             \includegraphics on input line 335.
+(epstopdf)             \includegraphics on input line 346.
 runsystem(repstopdf --outfile=bindener-eps-converted-to.pdf bindener.eps)...exe
 cuted safely (allowed).
 
@@ -428,7 +428,7 @@ pdfTeX warning: pdflatex (file ./bindener-eps-converted-to.pdf): PDF inclusion:
 <bindener-eps-converted-to.pdf, id=34, 722.7pt x 578.16pt>
 File: bindener-eps-converted-to.pdf Graphic file (type pdf)
 <use bindener-eps-converted-to.pdf>
-Package pdftex.def Info: bindener-eps-converted-to.pdf  used on input line 335.
+Package pdftex.def Info: bindener-eps-converted-to.pdf  used on input line 346.
 
 (pdftex.def)             Requested size: 312.9803pt x 250.38599pt.
 [3]
@@ -440,7 +440,7 @@ Package epstopdf Info: Source file: <Fig02_new3.eps>
 (epstopdf)                    size: 31645 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig02_new3-eps-converted-t
 o.pdf Fig02_new3.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 428.
 runsystem(repstopdf --outfile=Fig02_new3-eps-converted-to.pdf Fig02_new3.eps)..
 .executed safely (allowed).
 
@@ -454,8 +454,8 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 <Fig02_new3-eps-converted-to.pdf, id=40, 821.0675pt x 574.145pt>
 File: Fig02_new3-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig02_new3-eps-converted-to.pdf>
-Package pdftex.def Info: Fig02_new3-eps-converted-to.pdf  used on input line 41
-5.
+Package pdftex.def Info: Fig02_new3-eps-converted-to.pdf  used on input line 42
+8.
 (pdftex.def)             Requested size: 369.88582pt x 258.6432pt.
 Package epstopdf Info: Source file: <Fig03_new2.eps>
 (epstopdf)                    date: 2020-04-17 23:36:00
@@ -465,7 +465,7 @@ Package epstopdf Info: Source file: <Fig03_new2.eps>
 (epstopdf)                    size: 42049 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig03_new2-eps-converted-t
 o.pdf Fig03_new2.eps>
-(epstopdf)             \includegraphics on input line 446.
+(epstopdf)             \includegraphics on input line 459.
 runsystem(repstopdf --outfile=Fig03_new2-eps-converted-to.pdf Fig03_new2.eps)..
 .executed safely (allowed).
 
@@ -479,8 +479,8 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 <Fig03_new2-eps-converted-to.pdf, id=41, 821.0675pt x 574.145pt>
 File: Fig03_new2-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig03_new2-eps-converted-to.pdf>
-Package pdftex.def Info: Fig03_new2-eps-converted-to.pdf  used on input line 44
-6.
+Package pdftex.def Info: Fig03_new2-eps-converted-to.pdf  used on input line 45
+9.
 (pdftex.def)             Requested size: 369.88582pt x 258.6432pt.
 [4 <./bindener-eps-converted-to.pdf>]
 Overfull \vbox (20.2864pt too high) has occurred while \output is active []
@@ -491,7 +491,7 @@ Overfull \vbox (20.2864pt too high) has occurred while \output is active []
 
 [5 <./Fig02_new3-eps-converted-to.pdf> <./Fig03_new2-eps-converted-to.pdf>]
 [6]
-Underfull \hbox (badness 1400) in paragraph at lines 637--639
+Underfull \hbox (badness 1400) in paragraph at lines 641--643
  []\OT1/cmr/m/n/9 E.I. Siro-tinin, A.F. Tuli-nov, V.A. Khodyrev, V.N.
  []
 
@@ -511,12 +511,12 @@ Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ‰ in font cmr9!
 
-Underfull \hbox (badness 1248) in paragraph at lines 725--730
+Underfull \hbox (badness 1248) in paragraph at lines 729--734
  []\OT1/cmr/m/n/9 A. Schin-ner, P. Sig-mund, Nucl. In-strum. Meth. B
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 725--730
+Underfull \hbox (badness 1067) in paragraph at lines 729--734
  \OT1/cmr/m/n/9 J. D \OT1/cmr/bx/n/9 12\OT1/cmr/m/n/9 , 425 (2000). DPASS code,
  avail-able from
  []
@@ -525,13 +525,13 @@ Underfull \hbox (badness 1067) in paragraph at lines 725--730
 No file sp_hafnium.bbl.
 [8] (./sp_hafnium.aux) ) 
 Here is how much of TeX's memory you used:
- 5435 strings out of 494847
- 70915 string characters out of 6179080
- 162118 words of memory out of 5000000
- 8680 multiletter control sequences out of 15000+600000
+ 5437 strings out of 494847
+ 70938 string characters out of 6179080
+ 201904 words of memory out of 5000000
+ 8682 multiletter control sequences out of 15000+600000
  13448 words of font info for 52 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,10n,35p,790b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,35p,789b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
@@ -553,7 +553,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on sp_hafnium.pdf (8 pages, 359049 bytes).
+Output written on sp_hafnium.pdf (8 pages, 360017 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  134 compressed objects within 2 object streams
